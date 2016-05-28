@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <com.example.gongzhiyao.test_edittext_insert_image.Myedittext
+            android:id="@+id/myEdit"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/myButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="插入图片" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="保存" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="斜体" />
+
+        <Button
+            android:id="@+id/btn_underLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="下划线" />
+
+        <Button
+            android:id="@+id/btn_lighter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="高亮" />
+
+        <Button
+            android:id="@+id/btn_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="加粗" />
+
+    </LinearLayout>
+
+</LinearLayout>
